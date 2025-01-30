@@ -1,3 +1,4 @@
+import 'package:app_bankitito/components/Themes/sections/header.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -10,7 +11,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: <Widget>[
-          //Header(),
+          Header(),
           //BoxCard(),
         ],
       ),

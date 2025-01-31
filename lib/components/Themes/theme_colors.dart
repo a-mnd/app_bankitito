@@ -8,3 +8,8 @@ class ThemeColors {
     Color.fromRGBO(103, 99, 234, 1.0),
   ];
 }
+
+class ColorCircles {
+  static const MaterialColor primaryColor = Colors.orange;
+  static const List<Color>; 
+}

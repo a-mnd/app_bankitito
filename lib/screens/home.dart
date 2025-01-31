@@ -1,3 +1,5 @@
+import 'package:app_bankitito/components/Themes/box_card.dart';
+import 'package:app_bankitito/components/Themes/sections/conteudo.dart';
 import 'package:app_bankitito/components/Themes/sections/header.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +14,8 @@ class Home extends StatelessWidget {
       body: Column(
         children: <Widget>[
           Header(),
-          //BoxCard(),
+          BoxCard(boxContent: Conteudo()),
+          // Conteudo(),
         ],
       ),
     );

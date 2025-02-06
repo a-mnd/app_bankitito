@@ -9,7 +9,8 @@ class Conteudo extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: <Widget>[
-          const Icon(Icons.circle, size: 10),
+          const Icon(Icons.circle,
+              size: 10, color: Color.fromRGBO(255, 138, 0, 1.0)),
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -29,7 +30,8 @@ class Conteudo extends StatelessWidget {
               ),
             ],
           ),
-          const Icon(Icons.circle, size: 10),
+          const Icon(Icons.circle,
+              size: 10, color: Color.fromRGBO(40, 218, 242, 1)),
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[

@@ -11,5 +11,8 @@ class ThemeColors {
 
 class ColorCircles {
   static const MaterialColor primaryColor = Colors.orange;
-  static const List<Color>; 
+  static const List<Color> colorcircle = [
+    Color.fromRGBO(255, 138, 0, 1.0),
+    Color.fromRGBO(40, 218, 242, 1)
+  ];
 }
